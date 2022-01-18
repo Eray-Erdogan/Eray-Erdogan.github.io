@@ -1,0 +1,130 @@
+body {
+  margin: 0;
+  font-family: var(--bs-body-font-family);
+  font-size: var(--bs-body-font-size);
+  font-weight: var(--bs-body-font-weight);
+  line-height: var(--bs-body-line-height);
+  color: var(--bs-body-color);
+  text-align: var(--bs-body-text-align);
+  background-color: var(--bs-body-bg);
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  flex: 0 0 auto;
+}
+
+.box {
+    padding: 10px;
+    border-style: double;
+    background-color: rgb(179, 157, 35);
+    size: 0pt;
+    
+}
+#box1 ,#box3, #box5 , #box7 , #box9 {
+    background-color: cadetblue;
+}
+h3 {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
+/* This part is written for Navigation bar. */
+
+ul.nav1 {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+ul.nav2{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color:darkolivegreen;
+  flex: 0 0 auto;
+  
+}
+
+.header{
+
+  font-size: 18px;
+    line-height: 1.6;
+    overflow-x: hidden;
+    background: #eef2f5;
+    color: #4c5357;
+   
+    
+    
+}
+
+
+
+li a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 16px 16px;
+  text-decoration: none;
+  float: left;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+.active {
+  background-color: red;
+}
+body{
+  background-color:darkslateblue ;
+}
+
+
+/* This part written for Table */
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+
+@media (max-width: 600px) {
+    nav, section {
+      width: 100%;
+      height: auto;
+      padding: 20px;
+      width: 70%;
+    }
+  }
+article {
+    float: left;
+    padding: 10px;
+    width: 70%;
+    background-color: #f1f1f1;
+   
+  }
+  footer {
+    background-color: #777;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    float: inline-end;
+  }
+
+ .header_home {
+  padding: 60px;
+  text-align: center;
+  background: #1abc9c;
+  color: white;
+  font-size: 30px;
+}

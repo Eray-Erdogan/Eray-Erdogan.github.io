@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="E:\WEB workspace\Resume\CSS\Style.css">
+</head>
+
+
+
+<body>  
+    <header class="header">
+
+        <ul class="nav1">
+          <li><a href="Home.html" >Home</a></li>
+          <li><a href="CSS.html" class="active">Page for CSS</a></li>
+          <li><a href="HTML.html">Page for HTML</a></li>
+          <li><a href="#about">Contact </a></li>
+        </ul>  
+
+      <a href="https://tr.wikipedia.org/wiki/Kakt%C3%BCsgiller" target="_blank" 
+      ><img src="https://pixselle.com/wp-content/uploads/2020/08/en-guzel-kolay-resimler-3.jpg" 
+          width =200;
+          height="200">
+      </a>    
+    </header>
+
+
+<nav>
+      <strong>  <ul class="nav2">
+           <li> <a href="#box1">Selector </a>  </li>
+           <li><a href="#box2">CSSPosition</a> </li>
+           <li> <a href="#box3">Background</a> </li>
+           <li><a href="#box4">Images</a> </li>
+           <li> <a href="#box5">Tables</a> </li>
+           <li> <a href="#box6">Lists</a> </li>
+           <li> <a href="#box7">Forms</a> </li>
+           <li> <a href="#box8">Block-Inline</a>  </li>
+         </ul></strong>
+ </nav>
+
+
+ <section>
+<article>
+  <div id="box1" class="box" >
+    <h3 id="Subhead">Selector</h3>
+      <h4>    Change the color of all  p (paragraph) elements to "red".  </p>                </h4>
+<label for="SelectorNotes">
+  style <br>
+    p {
+      color: red;
+    } <br>
+    style
+  </label><hr>    
+  
+  <h4>     Change the color of the element with id=para1 , to "red".        </h4>
+      <label for="SelectorNotes">
+      style <br>
+        #para1 {
+          color: red;
+        } <br>
+        style
+      </label><hr>
+
+
+      <h4>     Change the color of all elements with the class "colortext", to "red".      </h4>
+      <label for="SelectorNotes">
+      style <br>
+      .colortext {
+        color: red;
+      } <br>
+        style
+      </label><hr>
+
+          
+      <h4>     Change the color of all p (paragraph) and h1 (header1) elements, to "red". 
+        Group the selectors to minimize code.        </h4>
+      <label for="SelectorNotes">
+      style <br>
+      h1, p {
+        color: red;
+      } <br>
+        style
+      </label><hr>
+</div><br>
+     
+  
+  <div id="box2" class="box">
+    <h3 id="Subhead">CSSPosition</h3>
+
+    <h4>    Add an <em> external style </em>sheet with the URL: "mystyle.css".              </h4>
+    <label for="CSSPositionNotes">
+     link rel="stylesheet" href="mystyle.css" 
+      </label><hr>   
+
+      <h4> Set "background-color: linen" for the page, using an <em> internal style </em> sheet.          </h4>
+    <label for="CSSPositionNotes">
+     style <br>
+     body  { <br>
+       background-color:linen;} <br>
+     style
+           </label><hr>  
+
+    <h4>   Set "background-color: linen" for the page, using an <em> inline style. </em>           </h4>
+    <label for="CSSPositionNotes">
+     - body style="background-color: linen"  -
+      </label><hr>  
+      
+    </div><br>
+    
+
+    <div id="box3" class="box" >
+      <h3 id="Subhead">Background</h3>
+<h4 style="background-color:linen;" >   Set the background color for the page to "linen" and the background color for h1 to "lightblue".            </h4>
+<label for="BackgroundNotes">   
+style
+body { <br>
+background-color:linen;  <br>
+}
+ <br>
+h1 {  <br>
+  background-color: lightblue;      <br>
+} <br>
+style
+</label><hr>
+
+<h4 style=" background-image: url(https://www.industrialempathy.com/img/remote/ZiClJf-640w.avif)  ; "> 
+  <br><br> --------  Set "a.png" as the background image of the page.
+  <br><br></h4>
+<label for="BackgroundNotes">  
+style
+<br>
+body {
+<br>
+  background-image: url(https://www.industrialempathy.com/img/remote/ZiClJf-640w.avif);
+
+}
+<br>
+style
+</label><hr>
+
+<h4 style ="background-image: url(moo.png)  no-repeat top right ; "  ><br><br><br><br><br><br> <br><br>  Use the shorthand background property to set
+   background image to "img_tree.png", show it once, in the top right corner. <br><br></h4>
+   <label for="BackgroundNotes"> 
+style <br>
+body{<br>
+background-image: url(moo.png)  no-repeat top right ;
+<br>
+} <br>
+
+style
+   </label>
+    </div><br>
+
+
+    <div id="box4" class="box" >
+      <h3 id="Subhead">Border</h3>
+    
+<h4 style=" border-style: dotted;border-width: 4px;" > Set a "4px", "dotted" border for "p" .    </h4>
+<label for="BorderNotes">   
+style
+body { <br>
+  border-style: dotted;
+  border-width: 4px;  <br>
+}
+style
+
+</label><hr>
+
+<h4 style=" border: 10px solid green;" >With the border property: Set the border for p to "10px", "solid" and "green".   </h4>
+<label for="BorderNotes">   
+style
+body { <br>
+  p {
+    border: 10px solid green;
+  } <br>
+}
+style
+
+</label><hr>
+
+
+    </div><br>    
+
+   
+    <div id="box5" class="box" >
+      <h3 id="Subhead">Margin</h3>
+    
+<h4 style="  background-color: lightblue;
+margin: 25px;" >Set all margins for h1 to "25px".   </h4>
+<label for="MarginNotes">   
+style
+h1{ <br>
+  background-color: lightblue;
+  margin: 25px;  <br>
+}
+style
+
+</label><hr>
+
+<h4 style="background-color: lightblue;margin: 50px 25px;" >Use the margin property to set the top and bottom margins for h1 to "50px", and left and right margins to "25px".  </h4>
+<label for="MarginNotes">   
+style
+ <br>
+  h1 {<br>
+    background-color: lightblue;
+  margin: 50px 25px;
+  } <br>
+}
+style
+
+</label><hr>
+
+<h4 style=" background-color: lightblue;width: 300px;margin: auto;" >Use the margin property to center align the h1 element. </h4>
+<label for="MarginNotes">   
+style
+ <br>
+  h1 {<br>
+    background-color: lightblue;
+  width: 300px;
+  margin: auto;
+  } <br>
+}
+style
+
+</label><hr>
+
+</div><br>    
+
+
+
+<div id="box6" class="box" >
+  <h3 id="Subhead">Padding</h3>
+
+<h4 style="    background-color: lightblue;padding-top: 30px;" >Set the top padding of p to "30px".   </h4>
+<label for="PaddingNotes">   
+style
+p{ <br>
+  background-color: lightblue;
+  padding-top: 30px; <br>
+}
+style
+
+</label><hr>
+
+<h4 style=" background-color: lightblue;padding: 50px;" >Set all paddings for p to "50px".  </h4>
+<label for="PaddingNotes">   
+style
+<br>
+p {<br>
+  background-color: lightblue;
+  padding: 50px;
+} <br>
+}
+style
+
+</label><hr>
+
+<h4 style=" background-color: lightblue;padding: 25px 50px;" >Use the padding property to set the top and bottom paddings for p to "25px", and left and right paddings to "50px". </h4>
+<label for="PaddingNotes">   
+style
+<br>
+p {<br>
+  background-color: lightblue;
+  padding: 25px 50px;
+} <br>
+}
+style
+
+</label><hr>
+
+</div><br>    
+
+----------------------------------------------
+
+
+
+
+
+
+</article>
+ </section>
+
+
+
+
+ <footer>
+
+  <h1>Footer</h1> 
+ </footer>
+
+
+
+
+
+
+
+    
+</body>
+</html>
